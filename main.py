@@ -6,9 +6,7 @@ print(colored('''
   / _ \  /\  /\  /___\  /\ \ \  /__\  /\ \ \  /___\  \_   \  /\ \ \  / __\  /___\
  / /_)/ / /_/ / //  // /  \/ / /_\   /  \/ / //  //   / /\/ /  \/ / / _\   //  //
 / ___/ / __  / / \_// / /\  / //__  / /\  / / \_// /\/ /_  / /\  / / /    / \_// 
-\/     \/ /_/  \___/  \_\ \/  \__/  \_\ \/  \___/  \____/  \_\ \/  \/     \___/  
-                                                                                 
-                                                                                \n ''',"green"))
+\/     \/ /_/  \___/  \_\ \/  \__/  \_\ \/  \___/  \____/  \_\ \/  \/     \___/  \n ''',"green"))
 
 print(colored("PHONEINFORMARION by Maari-Krish \n","magenta"))
 phonenum = input(colored("Enter Mobile Number with country code : ","red"))
