@@ -1,6 +1,7 @@
+from termcolor import colored
 import requests
 
-print('''
+print(colored('''
 ########  ##     ##  #######  ##    ## ######## ##    ##  #######  #### ##    ## ########  #######  ########  ##     ##    ###    ######## ####  #######  ##    ## 
 ##     ## ##     ## ##     ## ###   ## ##       ###   ## ##     ##  ##  ###   ## ##       ##     ## ##     ## ###   ###   ## ##      ##     ##  ##     ## ###   ## 
 ##     ## ##     ## ##     ## ####  ## ##       ####  ## ##     ##  ##  ####  ## ##       ##     ## ##     ## #### ####  ##   ##     ##     ##  ##     ## ####  ## 
@@ -8,10 +9,10 @@ print('''
 ##        ##     ## ##     ## ##  #### ##       ##  #### ##     ##  ##  ##  #### ##       ##     ## ##   ##   ##     ## #########    ##     ##  ##     ## ##  #### 
 ##        ##     ## ##     ## ##   ### ##       ##   ### ##     ##  ##  ##   ### ##       ##     ## ##    ##  ##     ## ##     ##    ##     ##  ##     ## ##   ### 
 ##        ##     ##  #######  ##    ## ######## ##    ##  #######  #### ##    ## ##        #######  ##     ## ##     ## ##     ##    ##    ####  #######  ##    ## 
-                                                                                                                                                                    \n ''')
+                                                                                                                                                                    \n ''',"blue"))
 
-print("PHONEINFORMARION by Maari-Krish \n")
-phonenum = input("Enter Mobile Number with country code : ")
+print(colored("PHONEINFORMARION by Maari-Krish \n","green"))
+phonenum = input(colored("Enter Mobile Number with country code : ","red"))
 apikey = "cd3af5f7d1897dc1707c47d05c3759fd"
 url = "http://apilayer.net/api/validate?access_key="+apikey+"&number="+phonenum+"&format=1"
 resp = requests.get(url)
