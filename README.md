@@ -1,5 +1,5 @@
 # Phoneinfoga
-Extract information From Phone Numbers.It has designed with the of a Python.
+Extract information From Phone Numbers.It has designed with the Python.
 
 # Installing
 Open Terminal and Type:
